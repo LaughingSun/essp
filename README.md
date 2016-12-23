@@ -12,7 +12,7 @@ Rendering usage (from node):
 
   `essp index.essp --output-dir=./build`
   
-    or
+or
       
   `essp --self-contained index.essp >index.html`
 
@@ -20,7 +20,7 @@ Internal server usage (from node, see the essp-server project):
 
   `essp-server`
  
-    or
+or
     
   `essp-server --doc-root=./public --address=127.0.0.1 --port=8080`
 
