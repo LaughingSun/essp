@@ -6,28 +6,23 @@ Wrapper modules currently provided for Node and V8+essp-server.  A few more are 
 
 Installation (coming soon) via npm:
 
-  ```npm install essp --save
-  ```
+  `npm install essp --save`
 
 Rendering usage (from node):
 
-  ```essp index.essp --output-dir=./build
-  ```
+  `essp index.essp --output-dir=./build`
   
     or
       
-  ```essp --self-contained index.essp >index.html
-  ```
+  `essp --self-contained index.essp >index.html`
 
 Internal server usage (from node, see the essp-server project):
 
-  ```essp-server
-  ```
+  `essp-server`
  
     or
     
-  ```essp-server --doc-root=./public --address=127.0.0.1 --port=8080
-  ```
+  `essp-server --doc-root=./public --address=127.0.0.1 --port=8080`
 
 For more information and FAQs, see: http://laughingsun.github.io/essp
 
